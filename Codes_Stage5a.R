@@ -1,0 +1,4 @@
+
+validated_edge_list <- read.table(paste0(directory_name,"validated_edge_list.txt"),sep="\t",header=TRUE)
+validated_frequencies <- as.data.frame(rbind(table(validated_edge_list[(validated_edge_list[,4] == "Core")&(validated_edge_list[,5] == "Core"),3]),table(validated_edge_list[(validated_edge_list[,4] == "Peripheral")&(validated_edge_list[,5] == "Peripheral"),3]),table(validated_edge_list[(validated_edge_list[,4] == "DiseaseEnriched")&(validated_edge_list[,5] == "DiseaseEnriched"),3]),table(validated_edge_list[(validated_edge_list[,4] == "Fungome")&(validated_edge_list[,5] == "Fungome"),3])))
+rownames(validated_frequencies) <- c("Core","Peripheral","DiseaseEnriched","Fungome")
