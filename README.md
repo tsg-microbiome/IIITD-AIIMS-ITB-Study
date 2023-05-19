@@ -5,4 +5,4 @@ The analysis was performed in different stages, each focused on a specific objec
 
 **Stage 1**
 
-The codes corresponding to this part of the study are uploaded as *Codes_Stage1.R*. This part reads all the input data files placed in the *Data_Files* folder and some user defined functions placed in *function_library.R* file. 
+The codes corresponding to this part of the study are uploaded as *Codes_Stage1.r*. This part reads all the input data files placed in the *Data_Files* folder and some user defined functions placed in *function_library.R* file. 
