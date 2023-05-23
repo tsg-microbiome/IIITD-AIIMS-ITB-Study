@@ -17,5 +17,12 @@ The codes corresponding to this part of the study are uploaded as *Codes_Stage3.
 
 **Stage 4**
 
-The codes corresponding to this part of the study are uploaded as *Codes_Stage4.r*. 
+The codes corresponding to this part of the study are uploaded as *Codes_Stage4.r*. This part performs all the steps pertaining to the generation of Co-occurrence MetaNetworks for Microbiome and Fungome and Microbiome-Fungome cross-kingdom associations from the different combined studies. The code uses the user-defined function rem_network1 (which uses another user defined Random Effects Model meta-analysis function compute_meta_corr). Both the functions are available in the *function_library.R* file.
 
+**Stage 5/5a**
+
+The codes corresponding to this part of the study are uploaded as *Codes_Stage5.r* and *Codes_Stage5a.r*. This part performs all the additional steps pertaining to the final building of the CCREPE-based marker network for the current dataset with the meta-network validated edge lists highlighted. This part uses a file validated_edge_list.txt provided in the *Data_Files* folder.
+
+**Stage 6**
+
+The codes corresponding to this part of the study are uploaded as *Codes_Stage6.r*. This part performs all the pertaining to the identification of the core and central members of the Indian gut microbiome by performing a meta-analysis of greater than 1500 gut microbiomes from across 7 Indian studies. It also computes the CGMS and compares the CGMS between IBD patients and controls across multiple studies. It takes in as input four additional files, DegreeDetectedCoreProperties.txt, DegreeDetectedCorePropertiesAll.txt, Microdiab_Metadata.txt and GuptaA_Metadata.txt. All these files are now placed in the *Data_Files* folder of this repository. It also uses the user-defined functions rank_scale and compute_detection.  Both the functions are available in the *function_library.R* file.
