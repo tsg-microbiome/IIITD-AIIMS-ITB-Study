@@ -10,3 +10,12 @@ The codes corresponding to this part of the study are uploaded as *Codes_Stage1.
 **Stage 2**
 
 The codes corresponding to this part of the study are uploaded as *Codes_Stage2.r*. This part performs all the beta-diversity analyses (e.g. Principal Coordinates Analysis and PERMANOVA) on microbiome and mycobiome profiles using various distance measures. It uses the 'batch_dunns.R' that is already present in the *function_library.R* file. 
+
+**Stage 3**
+
+The codes corresponding to this part of the study are uploaded as *Codes_Stage3.r*. This part performs all the steps pertaining to marker Identification using Random Forest and computing associations of different species with Principal Coordinate Analysis axes showing the most significant splits across the different groups. This part utilizes the user-defined function iterative_rf placed in the *function_library.R* file.
+
+**Stage 4**
+
+The codes corresponding to this part of the study are uploaded as *Codes_Stage4.r*. 
+
